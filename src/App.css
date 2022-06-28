@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.Profile {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 20px;
+  margin-top: 18%;
+}
+.Profile > * {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+span {
+  margin-right: 5px;
+}
